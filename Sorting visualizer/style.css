@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(53, 51, 51);
+    color: white;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.nav-heading {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 793px;
+    font-size: 53px;
+}
+
+.algos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 223px;
+    padding-left: 309px;
+    margin-left: -285px;
+    margin-right: 54px;
+    margin-top: 40px;
+    font-size: large;
+    padding-bottom: 31px;
+    font-style: oblique;
+}
+
+.algos :hover{
+    background-color: grey;
+    color: white;
+}
+.array-inputs {
+    margin-left: 106px;
+    margin-top: 54px;
+}
+
+#arr_generate {
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    margin-top: 34px;
+    margin-left: 94px;
+    padding: 6px;
+}
+
+#arr_generate:hover {
+    background-color:grey;
+    color: black;
+}
+
+.time_space_container {
+    margin-left: 94px;
+    margin-top: 57px;
+}
+#Time_Complexity_Types_Container{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#container{
+    height: 495px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 225px;
+    margin-left: 409px;
+    margin-right: 87px;
+}
+
+
+  
